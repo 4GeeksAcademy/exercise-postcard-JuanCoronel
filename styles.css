@@ -1,0 +1,65 @@
+body {
+	background: black;
+}
+
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+
+.postcard-header {
+	display: flex;
+}
+
+.postcard-header img {
+	width: 60px;
+	height: 60px;
+	padding: 3%;
+}
+
+.postcard-header h1 {
+	width: 100%;
+	margin: 1;
+	padding: 1%;
+	font-family: "Comic Neue", cursive;
+	font-family: "Shadows Into Light Two", cursive;
+}
+
+.postcard-body {
+	display: flex;
+}
+
+.body-left p:first-child {
+	margin-top: 0;
+}
+
+.body-left,
+.body-right {
+	padding: 10px;
+}
+
+input {
+	border: none;
+	border-bottom: 1px grey solid;
+	font-family: "Comic Neue", cursive;
+	font-family: "Shadows Into Light Two", cursive;
+}
+
+p {
+	font-size: 13px;
+	font-family: "Comic Neue", cursive;
+	font-family: "Shadows Into Light Two", cursive;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+button {
+	background-color: rgb(161, 160, 160);
+	padding: 5px 10px;
+	font-family: "Comic Neue", cursive;
+	font-family: "Shadows Into Light Two", cursive;
+}
